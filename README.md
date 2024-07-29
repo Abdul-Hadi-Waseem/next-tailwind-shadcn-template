@@ -1,69 +1,78 @@
-Overview
-next-template is a boilerplate for creating Next.js applications. It includes configurations and essential dependencies for rapid development and efficient production builds.
+# next-template
 
-Table of Contents
-Getting Started
-Available Scripts
-Dependencies
-DevDependencies
-License
-Getting Started
-To get started with next-template, follow these steps:
+## Overview
 
-Clone the repository:
+**next-template** is a boilerplate for creating Next.js applications. It includes configurations and essential dependencies for rapid development and efficient production builds.
 
-bash
-Copy code
-git clone <repository-url>
-cd next-template
-Install dependencies:
+## Table of Contents
 
-bash
-Copy code
+- [Getting Started](#getting-started)
+- [Available Scripts](#available-scripts)
+- [Dependencies](#dependencies)
+- [DevDependencies](#devdependencies)
+- [License](#license)
+
+## Getting Started
+
+To get started with **next-template**, follow these steps:
+
+1. **Clone the repository:**
+   ```bash
+   git clone <repository-url>
+   cd next-template
+   ```
+   Install dependencies:
+
+```bash
 pnpm install
+```
+
 Run the development server:
 
-bash
-Copy code
+```bash
 pnpm dev
+```
+
 Open http://localhost:3000 with your browser to see your application in action.
 
 Available Scripts
 In the project directory, you can run:
 
+```bash
 pnpm dev
+```
 
 Starts the development server.
+
+```bash
 pnpm build
+```
 
 Builds the application for production.
+
+```bash
+
 pnpm start
+```
 
 Starts the production server.
-pnpm lint
 
-Lints the project using ESLint.
-Dependencies
-@radix-ui/react-slot: ^1.1.0
-@tanstack/react-query: ^5.51.11
-axios: ^1.7.2
-class-variance-authority: ^0.7.0
-clsx: ^2.1.1
-lucide-react: ^0.414.0
-next: 14.2.5
-react: ^18
-react-dom: ^18
-tailwind-merge: ^2.4.0
-tailwindcss-animate: ^1.0.7
-DevDependencies
-@tanstack/eslint-plugin-query: ^5.51.12
-@types/node: ^20
-@types/react: ^18
-@types/react-dom: ^18
-eslint: ^8
-eslint-config-next: 14.2.5
-postcss: ^8
-tailwindcss: ^3.4.1
-typescript: ^5
-License
-This project is licensed under the MIT License
+```bash
+
+pnpm lint
+```
+
+## Tech Stack
+
+- Next.js
+- TypeScript
+- Tailwind CSS
+- @tanstack/react-query
+- axios
+- class-variance-authority
+- clsx
+- lucide-react
+
+## License
+
+This project is licensed under the MIT License.
